@@ -1,0 +1,1 @@
+This folder is only for sharing files, data, and related stuff. It is not related to the actual structure of the project.

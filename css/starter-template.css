@@ -1,0 +1,176 @@
+html {
+  height: 100%;
+}
+
+body {
+  padding-top: 50px;
+  /* Note this is a temporary image: Find something better later*/
+  background:url('https://images.pexels.com/photos/9809/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  background-size:cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+.jumbotron {
+  background: rgba(0,0,0,0.8);
+  color: white;
+  width: 100%;
+  text-align: center;
+  background-size:cover;
+  background-position:center;
+  padding-top:10px;
+  padding-bottom:50px;
+  border-radius: 25px !important
+}
+
+.container {
+  width: 75%;
+  height: 85%;
+}
+
+.img-responsive {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: white !important;
+    color: gray ;
+}
+
+.btn-outline-lg {
+    background-color: gray;
+}
+
+#homerow {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  align-content: center;
+}
+
+.card-img-top {
+  border-radius: 25px;
+  width:300px;
+  height:300px;
+}
+
+.home-card {
+  width:300px;
+  margin-bottom: 100px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 25px;
+  border-color: #007bff;
+  border-width: 10px;
+  color: gray;
+  /*https://stackoverflow.com/questions/39031224/how-to-center-cards-in-bootstrap-4*/
+  /*Not ideal fix, but best solution for now considering trouble with using mx-auto and scaling*/
+  margin: auto;
+  float: none;
+  margin-bottom: 25px;
+}
+
+
+.home-card-button {
+  margin-bottom: 16px;
+}
+
+.about-card {
+  width:300px;
+}
+
+.black-container {
+  background-color: rgba(0,0,0,0.8);
+  height: 100%;
+  align-content: center;
+  text-align: center;
+  color: white;
+  overflow: auto;
+}
+
+.tools-div-box {
+  background-color: gray;
+  color: black;
+  margin: 25px;
+  border-radius: 15px;
+}
+
+.about-list {
+  margin-bottom: 50px;
+  border-radius: 15px;
+}
+
+.div-model-basic {
+  background-color: gray;
+  color: black;
+  margin: 25px;
+  border-radius: 15px;
+  padding: 10px;
+  align-content: center;
+}
+
+.div-extra-padding {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.div-model-basic div {
+  text-align: left;
+  padding: 10px;
+}
+
+.card-about {
+  margin-bottom: 0px;
+}
+
+.carousel-inner > .item > img {
+  margin: 0 auto;
+  height: 512px;
+  width: 900px;
+  background: rgba(0,0,0,1);
+
+}
+
+.carousel {
+  margin-top: 25px;
+  background: rgba(0,0,0,0) !important;
+}
+
+.item {
+  background: rgba(0,0,0,0) !important;
+}
+
+* {
+  font-family: courier;
+}
+
+.img-rounded {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.generic-link {
+  color: black;
+  text-decoration: underline;
+}
+
+.card-body h5 {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.card-text {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}

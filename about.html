@@ -1,0 +1,222 @@
+
+<!DOCTYPE html>
+<!-- Based on template: https://getbootstrap.com/docs/3.3/examples/starter-template/# -->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>ArmedConflicts.Today: About</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/starter-template.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="home.html">Armed Conflicts Today</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="conflicts.html">Conflicts</a></li>
+            <li><a href="countries.html">Countries</a></li>
+            <li><a href="news.html">News</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div class="container black-container">
+      <h1 class="display-4">About Us</h1>
+      <hr class="my-4">
+        <div class="row justify-content-center" id="homerow">
+          <!-- Card template from: https://getbootstrap.com/docs/4.0/components/card/ -->
+          <div class="col-sm-4">
+            <div class="card home-card">
+              <img class="card-img-top" src="https://dylanbottoms.files.wordpress.com/2018/09/blog.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Dylan Bottoms</h5>
+                <p class="card-text">Role: Front-end</p>
+                <p class="card-text">Likes: Sports, Lamps</p>
+                <p class="card-text">Dislikes: Programming</p>
+                <p class="card-text" id="dylanCommits"></p>
+                <p class="card-text" id="dylanIssues">`</p>
+                <p class="card-text">Unit Tests:</p>
+                <a href="#" class="btn btn-primary home-card-button">Blog</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card home-card">
+              <img class="card-img-top" src="https://cs373fall2018seyeddanavaziri.files.wordpress.com/2018/01/prof-pic-e1516592375722.jpg?w=300&h=300" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Dana Vaziri</h5>
+                <p class="card-text">Role: Back-end</p>
+                <p class="card-text">Likes: Politics, Soccer</p>
+                <p class="card-text">Dislikes: Sand</p>
+                <p class="card-text" id="danaCommits"></p>
+                <p class="card-text" id="danaIssues"></p>
+                <p class="card-text">Unit Tests:</p>
+                <a href="#" class="btn btn-primary home-card-button">Blog</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card home-card">
+              <img class="card-img-top" src="https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/40139617_733533530321417_7260377699737141248_o.jpg?_nc_cat=108&oh=6a5aacb1b7b1e4ba84bcef29f1024aeb&oe=5C531A50" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Dune Blum</h5>
+                <p class="card-text">Role: Back-end</p>
+                <p class="card-text">Likes: Fashion, Travel</p>
+                <p class="card-text">Dislikes: Socks with sandals</p>
+                <p class="card-text" id="duneCommits"></p>
+                <p class="card-text" id="duneIssues"></p>
+                <p class="card-text">Unit Tests:</p>
+                <a href="#" class="btn btn-primary home-card-button">Blog</a>
+              </div>
+            </div>
+          </div>
+          <!-- Card template from: https://getbootstrap.com/docs/4.0/components/card/ -->
+          <div class="col-sm-4">
+            <div class="card home-card">
+              <img class="card-img-top" src="https://garrettbishop888.files.wordpress.com/2018/09/063-gv-2_pp-edit-e1535939488369.jpg?w=170&h=184" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Garrett Bishop</h5>
+                <p class="card-text">Role: Back-end</p>
+                <p class="card-text">Likes: Sleeping, Gaming</p>
+                <p class="card-text">Dislikes: Hoverboards</p>
+                <p class="card-text" id="garrettCommits"></p>
+                <p class="card-text" id="garrettIssues"></p>
+                <p class="card-text">Unit Tests:</p>
+                <a href="#" class="btn btn-primary home-card-button">Blog</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card home-card">
+              <img class="card-img-top" src="https://evanheintschelcs373.files.wordpress.com/2018/09/headshot.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Evan Heintschel</h5>
+                <p class="card-text">Role: Full-stack</p>
+                <p class="card-text">Likes: Beer, Film, His Car</p>
+                <p class="card-text">Dislikes: Scooters</p>
+                <p class="card-text" id="evanCommits"></p>
+                <p class="card-text" id="evanIssues"></p>
+                <p class="card-text">Unit Tests:</p>
+                <a href="#" class="btn btn-primary home-card-button">Blog</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card home-card">
+              <img class="card-img-top" src="https://jonathanray371.files.wordpress.com/2018/09/20180901_011855.jpg?w=304&h=438" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Jonathan Ray</h5>
+                <p class="card-text">Role: Full-stack</p>
+                <p class="card-text">Likes: Food, Water, Shelter</p>
+                <p class="card-text">Dislikes: Cancer</p>
+                <p class="card-text" id="jonathanCommits"></p>
+                <p class="card-text" id="jonathanIssues"></p>
+                <p class="card-text">Unit Tests:</p>
+                <a href="#" class="btn btn-primary home-card-button">Blog</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr class="my-4">
+        <h1 class="display-4">ArmedConflicts.Today: About The Website</h1>
+        <hr class="my-4">
+        <h2 class="display-4">Website Info</h2>
+        <p>The purpose of ArmedConflicts.Today is to help inform the public about violent conflicts around the world. There are
+          many wars and conflicts that most people do not know about. This website provides information about the conflicts, related 
+          countries, and relevant news.
+        <h2 class="display-4">Data Sources</h2>
+        <div class="tools-div-box">
+          <ul class="list-group about-list">
+            <li class="list-group-item">https://en.wikipedia.org/wiki/List_of_ongoing_armed_conflicts: List of conflicts and country information.</li>
+            <li class="list-group-item">https://restcountries.eu/: Additional info about countries.</li>
+            <li class="list-group-item">https://newsapi.org/: Related news.</li>
+            <li class="list-group-item">https://www.charitynavigator.org/ (Charity Navigator): Related charities.</li>
+          </ul>
+        </div>
+        <h2 class="display-4">Software Development Tools</h2>
+        <div class="tools-div-box">
+          <ul class="list-group about-list">
+            <li class="list-group-item">HTML5, CSS3, Bootstrap: Building the static website.</li>
+            <li class="list-group-item">Git, GitLab, Sublime Text, Slack: Tools to aid with creating the software.</li>
+            <li class="list-group-item">Amazon Web Services: Hosting for the website.</li>
+            <li class="list-group-item">NameCheap: Bought domain from here.</li>
+            <li class="list-group-item">Postman: Designing and documenting the RESTful API.</li>
+          </ul>
+        </div>
+        <h2 class="display-4">Other Links</h2>
+        <div class="tools-div-box">
+          <ul class="list-group about-list">
+            <li class="list-group-item">Repo: https://gitlab.com/JonathanAllenRay/armedconflicts.today</li>
+            <li class="list-group-item">Postman API: https://documenter.getpostman.com/view/5473416/RWgjaMgk</li>
+          </ul>
+        </div>
+
+    </div>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/about.js"></script>
+    <script>
+    commits().then(commitsList => {
+      document.getElementById("duneCommits").innerHTML = "Commits: " + commitsList.duneCommits;
+    });
+    commits().then(commitsList => {
+      document.getElementById("dylanCommits").innerHTML = "Commits: " + commitsList.dylanCommits;
+    });
+    commits().then(commitsList => {
+      document.getElementById("danaCommits").innerHTML = "Commits: " + commitsList.danaCommits;
+    });
+    commits().then(commitsList => {
+      document.getElementById("garrettCommits").innerHTML = "Commits: " + commitsList.garrettCommits;
+    });
+    commits().then(commitsList => {
+      document.getElementById("evanCommits").innerHTML = "Commits: " + commitsList.evanCommits;
+    });
+    commits().then(commitsList => {
+      document.getElementById("jonathanCommits").innerHTML = "Commits: " + commitsList.jonathanCommits;
+    });
+    issues().then(issuesList => {
+      document.getElementById("duneIssues").innerHTML = "Issues: " + issuesList.duneIssues;
+    });
+    issues().then(issuesList => {
+      document.getElementById("dylanIssues").innerHTML = "Issues: " + issuesList.dylanIssues;
+    });
+    issues().then(issuesList => {
+      document.getElementById("danaIssues").innerHTML = "Issues: " + issuesList.danaIssues;
+    });
+    issues().then(issuesList => {
+      document.getElementById("garrettIssues").innerHTML = "Issues: " + issuesList.garrettIssues;
+    });
+    issues().then(issuesList => {
+      document.getElementById("evanIssues").innerHTML = "Issues: " + issuesList.evanIssues;
+    });
+    issues().then(issuesList => {
+      document.getElementById("jonathanIssues").innerHTML = "Issues: " + issuesList.jonathanIssues;
+    });
+  </script>
+  </body>
+</html>

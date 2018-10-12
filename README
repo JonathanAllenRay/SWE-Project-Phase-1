@@ -1,0 +1,46 @@
+Member 1:
+	name: Dune Blum
+	EID: djb3657
+	GitLab ID: dune297
+	estimated completion time: 10
+	actual completion time: 16
+
+Member 2:
+	name: Dylan Bottoms
+	EID: dlb3828
+	GitLab ID: dylanbott
+	estimated completion time: 5
+	actual completion time: 8
+	
+Member 3: 
+	name: Evan Heintschel
+	EID: ewh463
+	GitLab ID: eheintschel
+	estimated completion time: 6
+	actual completion time: 8
+	
+Member 4:
+	name: Jonathan Ray
+	EID: jr58566
+	GitLab ID: JonathanAllenRay
+	estimated completion time: 12
+	actual completion time: 17
+	
+Member 5:
+	name: Seyed Dana Vaziri
+	EID: sv23238
+	GitLab ID: danavaziri
+	estimated completion time: 10
+	actual completion time: 8
+	
+Member 6:
+	name: Garrett Bishop
+	EID: gtb434
+	GitLab ID: gbishop888
+	estimated completion time: 5
+	actual completion time: 7
+
+Link to GitLab Pipelines: https://gitlab.com/JonathanAllenRay/armedconflicts.today/pipelines
+Git SHA: 466b32b9e292f463b65a37d47655ed2e687fa35b
+Link to website: http://armedconflicts.today
+comments: 
